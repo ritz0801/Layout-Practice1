@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Start Header CSS */
+.header {
+    background-color: #b06010;
+    padding: 13px 0px;
+}
+
+.header-content {
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+
+.header-content i, .header-content span {
+    margin-right: 10px;
+}
+/* End Header CSS */
+
+/* Start Navigation CSS */
+.navigation-bar-brand, .navigation-bar-menu, .navigation-bar-social {
+    float: left;
+}
+
+.navigation-bar-content {
+    width: 80%;
+    margin: auto;
+}
+
+.navigation-bar-brand {
+    padding-top: 0.5rem;
+    width: 25%;
+}
+
+.navigation-bar-menu {
+    padding-top: 0.7rem;
+    width: 55%;
+}
+
+.navigation-bar-menu ul {
+    list-style: none;
+}
+
+.navigation-bar-menu ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.navigation-bar-menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation-bar-menu ul li.active a {
+    color: #b5714e;
+}
+
+.navigation-bar-social {
+    padding-top: 1.2rem;
+    width: 20%;
+    display: flex;
+}
+
+.social-item {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+/* .social-item i {
+    padding-left: 0.5rem;
+    padding-top: 0.4rem;
+} */
+
+.fb-social {
+    background-color: #3b5998;
+}
+
+.tw-social {
+    background-color: #1da1f2;
+}
+
+.gg-social {
+    background-color: #ea4c89;
+}
+/* End Navigation CSS */
+
+/* Start Slider CSS */
+.slider{
+    height: 650px;
+    background-image: url('../images/banner-2.jpg');
+    background-position: center center;
+}
+
+.slider-caption {
+    padding-top: 8%;
+    text-align: center;
+    color: white;
+}
+
+.slider-caption h1 {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.slider-social {
+    text-align: center;
+}
+
+.slider-social i {
+    color: #b06010;
+    margin-right: 2rem;
+    font-size: 30px;
+}
+/* End Slider CSS */
+
+/* Start About Us CSS */
+.about-us {
+    margin-top: 5rem;
+}
+
+.about-us-content {
+    width: 80%;
+    margin: auto;
+}
+
+.about-us-caption {
+    text-align: center;
+}
+
+.about-us-caption h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.about-us-caption span {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    color: #b06010;
+}
+
+.about-us-caption p {
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+    line-height: 1.8rem;
+}
+
+.about-us-list {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.about-us-list-item {
+    width: 25%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.about-us-list-item i {
+    font-size: 3rem;
+    color: #204b87;
+}
+
+.about-us-list-item h2 {
+    color: #b06010;
+}
+
+.about-us-list-item p {
+    color: #8c8888;
+}
+/* End About Us CSS */
+
+/* Start Home CSS */
+.home {
+    display: flex;
+    width: 100%;
+    background-color: #015bb1;
+    padding-bottom: 2rem;
+}
+
+.home-img img {
+    height: 95%;
+}
+
+.home-intro {
+    padding: 0 3rem;
+}
+
+.home-intro h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.8rem;
+    padding: 0 3rem;
+}
+
+.home-intro p {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+    color: white;
+    margin-bottom: 2.2rem;
+    font-weight: bold;
+}
+
+p.home-subtitle {
+    color: black;
+    line-height: 2rem;
+}
+
+.home-intro p i {
+    margin-right: 1.2rem;
+}
+/* End Home CSS */
+
+/* Start Team CSS */
+.team {
+    padding-top: 3rem;
+}
+
+.team-content {
+    width: 80%;
+    margin: auto;
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team-title h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.team-title span {
+    color: #b06010;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+}
+
+.team-member {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member-item {
+    padding: 7rem;
+}
+
+.team-member-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.team-member-item p {
+    font-size: 1.5rem;
+    color: #b06010;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.team-member-item span {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #4f5667;
+}
+
+.team-line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 1.8rem auto;
+}
+
+.team-social {
+    margin-top: 1.5rem;
+}
+
+.team-social i {
+    color: #204b87;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+/* End Team CSS */
+
+/* Start Customer CSS */
+.customer {
+    height: 40rem;
+    background-image: url('../images/banner-2.jpg');
+}
+
+.customer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.customer-title {
+    text-align: center;
+}
+
+.customer-title h1 {
+    font-size: 3rem;
+    margin-bottom: 0.6rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.customer-title span {
+    color: #b06010;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+}
+
+.customer-member {
+    width: 100%;
+}
+
+.customer-member-item {
+    width: 30%;
+    float: left;
+}
+
+.customer-member-item:nth-child(2) {
+    margin: 0 5%;
+}
+
+.customer-comment {
+    background: rgba(255,255,255,0.3);
+    padding: 0.5rem 0.7rem;
+    margin-top: 15%;
+    color: white;
+    line-height: 2.2rem;
+}
+
+.customer-info {
+    padding-top: 2.5rem;
+}
+
+.customer-info img {
+    max-width: 20%;
+    float: left;
+    margin-right: 0.7rem;
+    margin-left: 20%;
+}
+
+.customer-info p {
+    color: white;
+    margin-top: 0rem;
+    margin-bottom: 0.1rem;
+    font-weight: bold;
+}
+
+.customer-info span {
+    color: #cbcbcb;
+    font-weight: 300;
+}
+/* End Customer CSS */
+
+/* Start Overview CSS */
+.overview {
+    width: 100%;
+    padding: 4rem 0px;
+}
+
+.overview-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.overview-title {
+    text-align: center;
+}
+
+.overview-title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.overview-title span {
+    letter-spacing: 0.3rem;
+    color: #b06010;
+    font-size: 1.2rem;
+}
+
+.overview-statistic {
+    background-color: #212121;
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.overview-statistic-item {
+    float: left;
+    width: 30%;
+}
+
+.overview-statistic-item:nth-child(2) {
+    margin: 0 5%;
+}
+
+.overview-statistic-item i {
+    float: left;
+    color: #b06010;
+    font-size: 3rem;
+    padding-left: 15%;
+    padding-top: 1rem;
+    margin-right: 2.2rem;
+}
+
+.overview-statistic-item .overview-statistic-detail {
+    float: left;
+}
+
+.overview-statistic-detail p {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0.2rem 0;
+}
+
+.overview-statistic-detail span {
+    color: white;
+}
+/* End Overview CSS */
