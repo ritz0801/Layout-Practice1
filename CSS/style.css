@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clear {
@@ -447,3 +448,108 @@ p.home-subtitle {
     color: white;
 }
 /* End Overview CSS */
+
+/* Start Footer CSS */
+.footer {
+    background-color: black;
+}
+
+.footer-content {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.footer-detail {
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+.footer-contact {
+    width: 40%;
+}
+
+.footer-detail h2 {
+    font-weight: 200;
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-detail {
+    margin-top: 3rem;
+}
+
+.footer-detail p {
+    color: #7c7c7c;
+}
+
+.footer-detail p i {
+    margin-right: 1rem;
+}
+
+.footer-contact p {
+    padding-right: 6rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.footer-about-us p {
+    line-height: 2rem;
+    padding-right: 3rem;
+}
+
+.footer-social {
+    display: flex;
+}
+
+.footer-news i {
+    color: #204b87;
+}
+
+.footer-content-form {
+    margin-top: 2rem;
+}
+
+.footer-content-form h2 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.footer-content-form input {
+    width: 76%;
+    height: 3rem;
+    background-color: #1b1b1b;
+    border: none;
+    color: white;
+}
+
+.footer-content-form button {
+    width: 15%;
+    margin-left: 1%;
+    background-color: #204b87;
+    color: white;
+    border: none;
+    height: 3rem;;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.copy-right {
+    background-color: #111;
+    text-align: center;
+    height: 4rem;
+}
+
+.copy-right p {
+    margin: 0;
+    color: #999999;
+    line-height: 4rem;
+}
+
+.copy-right b {
+    color: #b06010;
+    font-weight: 200;
+    text-decoration: underline;
+}
+/* End Footer CSS */
